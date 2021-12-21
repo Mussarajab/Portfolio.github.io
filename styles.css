@@ -44,15 +44,12 @@ body{
   /*text-align: center;*/
 }
 
-.hero{
+#main-container{
 	max-width:990px;
+	display: flex;
 	margin: auto;
 	flex-wrap: wrap;
-}
-
-#main-container{
-	max-width:1366px;
-	background-color:#e9e9e9;
+	background-color:#e9e9e9
 	
 }
 
@@ -69,30 +66,20 @@ body{
 	text-decoration: none;
 }
 
-.nav a{
-	text-decoration: none; 
-	color: #727074;
-}
 
 .logo{
-	margin-left:30px;
 	box-sizing: border-box;
 }
 
+.hero{
+	font-family:inter;
+	font-size: 2em;
+	margin: 20px;
+	font-size: 2.2em;
+}
 
-.getintouch{
-	margin:20px;
-	/*margin-right:30px;*/
-	width:150px;
-	height:35px;
-	font-family:consolas;
-	color:#727074;
-	font-size:1em;
-	font-weight: 800;
-	border:none;
-	background-color:white;
-	border-radius:5px;
-	text-align:center;
+.Musa, .beautiful{
+	color: #727074;
 }
 
 
@@ -146,6 +133,7 @@ body{
 
 .HAMBERGER{
 	margin-right: 1.25em;
+	margin-top: 40px;
 }
 
 
@@ -155,6 +143,8 @@ body{
 .navigation{
 	max-width: 990px;
 	margin: auto;
+	padding: 20px;
+	box-sizing: border-box;
 	display:flex;
 	justify-content:space-between;
 	
@@ -165,72 +155,6 @@ body{
 
     
 	
-	/*Typing Animation*/
-.wrapper{
-	height:300px;
-	display:flex;
-	align-items:center;
-	justify-content:center;
-	background-color:#e9e9e9;
-	float:left;
-	/*color: #727074;*/
-}
-
-.typewriter{
-	animation: typing 3s steps(40), blinkCaret .45s step-end infinite alternate;
-	white-space:nowrap;	
-	width:16ch;
-	float:left;
-	overflow:hidden;
-	border-right:3px solid #727074;
-	font-family:inter;
-	font-weight: 300;
-	font-size:35pt;	
-}
-
-
-@keyframes typing{
-	from{
-		width:0;
-	}
-}
-
-@keyframes blinkCaret{
-	50%{
-		border-color:transparent;
-	}
-}	
-
-.AutoTyping{
-	display:flex;
-	margin-left:20px;
-	justify-content:left;
-	
-}
-
-.Musa {
-	font-family:inter;
-	color:#727074;
-	font-weight: 300;
-	font-size:35pt;	
-}
-
-.beautiful{
-	font-family:inter;
-	color:#727074;
-	font-weight: 300;
-	font-size:35pt;	
-}
-
-.HeroParagraph{
-	max-width:990px;
-	position: absolute;
-	top:265px;
-	margin-left:20px;
-	font-family:inter;
-	font-weight: 300;
-	font-size:35pt;	
-}
 
 
 
@@ -266,6 +190,7 @@ body{
 	max-width: 990px;
 	margin: auto;
 	display-content:inline;
+	flex-wrap: wrap;
 	gap:60px;
 	margin-bottom:100px;	
 }
@@ -293,7 +218,7 @@ body{
 }
 
 	/*footer section*/
-footer{
+.footer{
 	max-width: 990px;
 	margin-top:200px;
 	margin: auto;
