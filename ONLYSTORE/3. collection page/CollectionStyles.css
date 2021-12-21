@@ -1,0 +1,76 @@
+.container{
+	width:990px;
+	margin:auto;
+}
+
+.active{
+	background-color:orange;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  margin-left:100px;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.category{
+	border:1px solid grey;
+	width:175px;
+	height:320px;
+	padding:40px;
+	margin-top:20px;
+}
+
+.Memorialday{
+	position:relative;
+	bottom:420px;
+	left:300px;
+	font-family:arial;
+	font-size:14pt;
+}
+
+.thumbs1{
+	position:relative;
+	display:inline;
+	top:250px;
+	left:480px;
+}
+
+.thumbs2{
+	position:relative;
+	top:430px;
+	left:480px;
+}
+
+.thumbs3{
+	position:relative;
+	top:610px;
+	left:480px;
+}
+
+.shippingrated{
+	position:relative;
+	top:790px;
+	left:480px;
+}
+
+.Shippingratesquote{
+	position:relative;
+	top:790px;
+	left:860px;
+}

@@ -1,0 +1,222 @@
+
+/*LOADING ANIMATION*/
+@keyframes load {
+    0%{
+        opacity: 0.08;
+/*         font-size: 10px; */
+/* 				font-weight: 400; */
+				filter: blur(5px);
+				letter-spacing: 3px;
+        }
+    100%{
+/*         opacity: 1; */
+/*         font-size: 12px; */
+/* 				font-weight:600; */
+			filter: blur(0); 
+        }
+}
+
+#animate {
+	display: flex;
+	justify-content: center;	
+	/*position: absolute;
+	left: 40%;*/
+	margin-top: 120px;
+	animation: load 1.2s infinite 0s ease-in-out;
+	animation-direction: alternate;
+	text-shadow: 0 0 1px white;
+	font-size: 2em;
+	text-align: center;
+	font-weight: 800;
+}
+
+
+
+#myDiv {
+  display: none;
+  /*text-align: center;*/
+}
+
+
+
+/*LOADING ANIMATION END*/
+
+body {
+  font-family: 'Lato', sans-serif;
+  scroll-behavior: smooth;
+  background-color: #CECECE;
+}
+
+
+
+
+	/*HAMBERGER NAVIGATION*/
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+		/*HAMBERGER NAVIGATION END*/
+	
+
+
+		/*BODY*/
+.main-container{
+	max-width: 990px;
+	margin: auto;
+}
+
+.header{
+	display: flex;
+	justify-content: space-between;
+}
+
+.intro{
+	display: flex;
+	margin-top: 30px;
+	font-size:2em;
+}
+
+.y2kcollege{
+	color: #1ebdff;
+	font-family: 'Lato', sans-serif;
+}
+
+.content{
+	display: flex;
+	justify-content: center;
+	margin: auto;
+}
+
+/*GetStarted btn*/
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.getstartedbtn{
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	text-decoration: none;
+}
+
+button{
+	display: flex;
+	justify-content: center;
+	width: 170px;
+	height:30px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 800;
+	padding: 7px;
+	border: none;
+	border-radius: 15px;
+	text-decoration: none;
+}
+
+.getstartedbtn a{
+	text-decoration: none;
+	color: #000000;
+}
+
+button:hover{
+	background-color:#000000;
+	color: #ffffff;
+}
+		/*BODY END*/
+
+
+
+	/*FOOTER*/
+.description{
+	margin-top: 30px;
+	font-weight: 600;
+}	
+	
+.footerheader{
+	font-family: 'Anton', sans-serif;
+}
+	
+footer{
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 250px;
+	flex-wrap: wrap;
+	gap: 30px;
+}
+
+
+

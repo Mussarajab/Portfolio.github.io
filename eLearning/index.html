@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="index.css" rel="stylesheet" type="text/css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+</style>
+</head>
+<body onload="myFunction()">
+<div id="animate"><div class="load"><img src="images/logo.png" height="200px" width="300px"/><br><br>CPT - JHN</div></div>
+
+<div style="display:none;" id="myDiv" class="animate-bottom">
+<div class="main-container">
+	<div class="header">
+		<a href="index.html"><div class="logo"><img src="images/logo.png" height="80px" width="115px"/></div></a>
+		<div id="myNav" class="overlay">
+		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		  <div class="overlay-content">
+			<a href="index.html">Home</a>
+			<a href="contents.html"><mark>Grade 12</mark></a>
+			<!--<a href="contents11.html">Grade 11</a>
+			<a href="contents10.html">Grade 10</a>
+			<a href="contents9.html">Grade 9</a>
+			<a href="contents8.html">Grade 8</a>-->
+			
+		  </div>
+		</div>
+
+	</div>
+	
+	<div class="intro"><p>HI! I WAS EXPECTING YOU.<br><br>THIS IS A BIG UMBRELLA THAT COVERS ALOT OF MATERIALS.PAST PAPERS, STUDY NOTES AND VIDEOS. BROUGHT TO YOU BY <span class="y2kcollege">Y2K COLLEGE</span>. WELCOME.</p></div>
+	
+	<div class="content">
+		<div><img src="images/animation_500_kwl35zug.gif" height="320px" width="320px"/></div>
+	</div>
+	
+	<div class="getstartedbtn"><a href="options12.html"><button style="text-decoration: none;">GET STARTED</button></a></div>	
+	
+</div>
+
+
+
+<script>
+//HUMBERGER NAVIGATION//
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+ //HUMBERGER NAVIGATION END//
+ 
+ //GET STARTED BUTTON//
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+
+  //LOADIND ANIMATION//
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 6000);
+}
+
+function showPage() {
+  document.getElementById("animate").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+
+
+</script>   
+</body>
+
+<footer>
+	<div class="socialmedia">
+	<a href="https://www.facebook.com/y2kcollege/" target="_blank"><img src="images/1051309.png" height="40px" width="40px"/></a>
+	</div>
+
+	<div class="Y2K">
+		<div class="footerheader">Y2K COLLEGE CAPE TOWN</div>
+		<div class="description"><img src="images/1082334.png" height="15px" width="15px"/> 021 461 3795 <br><br><img src="images/331810.png" height="15px" width="15px"/> 30 bax/Product street.<br> Ndabeni CAPE TOWN</div>
+	</div>
+	
+	<div class="Y2kJOHANNESBURG">
+		<div class="footerheader">Y2K COLLEGE JOHANNESBURG</div>
+		<div class="description"><img src="images/1082334.png" height="15px" width="15px"/> 011 970 1143 <br><br><img src="images/331810.png" height="15px" width="15px"/> Myrtle Building. No23 West Street<br>Unit 401 B. Kempton Park. </div>
+	</div>
+</footer>
+</div>
+</html>

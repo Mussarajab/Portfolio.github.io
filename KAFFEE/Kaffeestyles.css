@@ -1,0 +1,191 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+body{
+background-image: linear-gradient(-60deg, #6f4e37 0%, #f09819 100%);
+}
+
+.main-container{
+	max-width: 990px;
+	margin: auto;
+}
+
+.header{
+	display: flex;
+	justify-content: space-around;
+}
+
+.logo{
+	display: flex;
+	justify-content: center;
+}
+
+.navigation{
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+	gap: 80px;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+div a:hover{
+	background-color:  #6f4e37;
+	border-radius: 5px;
+}
+
+.navigation a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.banner{
+	margin-top: 120px;
+	display: flex;
+	justify-content: space-around;
+	font-family: 'Montserrat', sans-serif;
+	color: #ffffff;
+}
+
+.big{
+	font-size: 4em;
+	font-family: 'Montserrat';
+}
+
+
+
+		/*OUR MENU*/
+.ourmenu{
+	display: flex;
+	justify-content: center;
+	margin-top: 250px;
+	font-family: 'Montserrat', sans-serif;
+	color: #ffffff;
+	font-size: 2.5em;
+	font-weight: 500;	
+}
+
+
+.threeoptions{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 50px;
+}
+
+.cake, .grapes, .ice-cream{
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+	color: #ffffff;
+	gap: 30px;
+}
+
+.cake{
+	width: 250px;
+	height: 530px;
+	border-radius: 10px;
+	background-color: #6f4e37;
+}
+
+.grapes{
+	width: 250px;
+	height: 530px;
+	border-radius: 10px;
+	background-color: #3c0a3c;
+}
+
+.ice-cream{
+	width: 250px;
+	height: 530px;
+	border-radius: 10px;
+	background-color: #301603;
+}
+
+.getdelivery button{
+	weight: 550px;
+}
+
+button{
+	transition: ease-out 0.5s;
+	box-shadow: inset 0000 #6f4e37;
+}
+
+button:hover{
+	cursor: pointer;
+	box-shadow: inset 0px 50px 0px 50px #6f4e37;
+	color: white;
+}
+
+.roll{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 120px;
+	font-family: 'Montserrat', sans-serif;
+	color: #ffffff;
+}
+
+.cinnamon{
+	margin-top: 30px;
+}
+
+.aboutus{
+	display: flex;
+	justify-content: center;
+	margin-top: 200px;
+	font-family: 'Montserrat', sans-serif;
+	color: #ffffff;
+	font-size: 2.5em;
+	font-weight: 500;	
+}
+
+.aboutus3{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 50px;
+	font-family: 'Montserrat', sans-serif;
+	color: #ffffff;
+}
+
+.aboutdescription{
+	display: flex;
+	justify-content: center;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-size: 0.7em;
+	color: #ffffff;
+}
+
+hr{
+	width: 50px;
+}
+
+.contact{
+	display: flex;
+	justify-content: center;
+	margin-top: 200px;
+	font-family: 'Montserrat', sans-serif;
+	color: #ffffff;
+	font-size: 2.5em;
+	font-weight: 500;	
+}
+
+.footercontents{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 50px;
+	font-family: 'Montserrat', sans-serif;
+	color: #ffffff;
+	font-size: 0.9em;
+}
+
+.copyright{
+	display: flex;
+	justify-content: center;
+	font-family: 'Montserrat', sans-serif;
+	color: #ffffff;
+	font-size: 0.6em;
+}

@@ -1,0 +1,75 @@
+.container{
+max-width:990px;
+margin:auto;
+}
+
+.main-header{
+	
+}
+
+.navbar {
+  width: 100%;
+  background-color: black;
+  overflow: auto;
+  font-family: arial;
+  font-size: 58px;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 22.5%; /* Four links of equal widths */
+  text-align: center;
+   font-size: 20pt;
+ 
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.navbar a.active {
+  background-color: #04AA6D;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+.HERO{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+}
+.Summer{
+	display: flex;
+	justify-content: space-between;
+	font-size: xx-large;
+	font-family: arial;	
+}
+
+.pic{
+	display: flex;
+	justify-content: space-between;
+}
+
+.quotes{
+	display: flex;
+	justify-content: space-evenly;
+	font-family: arial;
+	font-size: 11pt;
+	
+}
+
+
+
+
