@@ -136,7 +136,7 @@ button a{
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: pink;
+  background-color: #000;
   /*background-color: rgb(0,0,0);
   background-color: rgba(0,0,0, 0.9);*/
   overflow-x: hidden;
@@ -245,7 +245,6 @@ button a{
 .facebooktwitter{
 	display:flex;
 	justify-content:flex-end;
-	margin-right:30px;
 }
 
 .Allrights{
