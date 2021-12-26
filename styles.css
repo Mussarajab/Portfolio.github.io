@@ -253,20 +253,9 @@ button a{
 	color: #727074;
 	box-sizing: border-box;
 }
-.nav-bottom{
-	display:flex;
-	/*justify-content: center;*/
-	gap:80px;
-	/*margin-top:0 auto;*/
-	padding:30px;
-	font-family:consolas;
-	font-size:1.25em;
-	color: #727074;
-}
 
-.nav-bottom a{
-	text-decoration: none; color: #727074;
-}
+
+
 
 .footer{
 	display:flex;

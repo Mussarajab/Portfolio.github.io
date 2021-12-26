@@ -84,6 +84,10 @@ body{
   font-size: 60px;
 }
 
+.HAMBERGER{
+	margin-right: 1.25em;
+	margin-top: 40px;
+}
 /*@media screen and (max-height: 1024px) {
   .overlay a {font-size: 20px}
   .overlay .closebtn {
