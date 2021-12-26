@@ -55,17 +55,6 @@ body{
 }
 
 	/*Top Navigation*/
-.nav{
-	display:flex;
-	gap:80px;
-	margin-top:0 auto;
-	padding:30px;
-	font-family:consolas;
-	font-size:1.25em;
-	color: #727074;
-	box-sizing: border-box;
-	text-decoration: none;
-}
 
 
 .logo{
@@ -265,67 +254,9 @@ button a{
 }	
 
 
-/*@media screen and (max-width: 600px) {
-  div.logo img {
-	width: 247px;
-	height: 52px;
-	margin-top: 30px;
-  }
-  div.HAMBERGER{
-	 margin-top: 30px; 
-	 margin-right: 30px;
-  } 
-}
 
 
-@media screen and (max-width: 650px) {
-  .overlay a {font-size: 20px}
-  .overlay .closebtn {
-  font-size: 40px;
-  top: 15px;
-  right: 35px;
-  }
-}
 
-@media screen and (max-width: 600px) {
-  .main-Nav, .getintouch {
-	  display: none;
-  }
-  .HAMBERGER{
-	  display: block;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  div.HeroParagraph {
-    font-size: 1.5625em;
-	margin: 20px;
-  }
-  div.nav-bottom{
-	  display: none;
-  }
-}
-
-
-@media screen and (max-width: 600px) {
-  div button.readmoreaboutme {
-    margin-top: 220px;
-  }
-}
-
-* {
-  box-sizing: border-box;
-}
-
-@media screen and (max-width: 600px) {
-  #choices, .zoom img {
-	width:223px;
-	height:150px;
-	margin: auto;
-	margin-bottom:100px;
-	gap: 10px;
-  }
-}
-
+ 
 
 
