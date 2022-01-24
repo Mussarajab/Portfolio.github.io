@@ -8,9 +8,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body onload="myFunction()" style="margin:0;">
+<body>
 <div id="main-container">
-<div id="animate"><div class="load">Loading..</div></div>
 
 	<!--Navigation-->
 <div id="center">
@@ -84,16 +83,6 @@
 </body>
 
 <script>
-var myVar;
-
-function myFunction() {
-  myVar = setTimeout(showPage, 6000);
-}
-
-function showPage() {
-  document.getElementById("animate").style.display = "none";
-  document.getElementById("myDiv").style.display = "block";
-}
   //HAMBERGER NAVIGATION//
 function openNav() {
   document.getElementById("myNav").style.width = "100%";
