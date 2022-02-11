@@ -98,6 +98,11 @@ body{
 	margin-bottom: 80px;
 	font-weight: 800;
 }
+
+.facts{
+	display: flex;
+	flex-wrap: wrap;
+}
 	
 .two-rows{
 	display: flex;
@@ -107,19 +112,28 @@ body{
 
 }	
 
+h2{
+	display: flex;
+	justify-content: center;
+	font-family: inter;
+}
+
 .first-row{
 	display:flex;
+	flex-wrap: wrap;
+	text-align: center;
 	font-family: inter;
 	justify-content: center;
-	gap: 70px;
+	
 }
 	
 .second-row{
-	margin-top:50px;
+	display:flex;
+	flex-wrap: wrap;
+	text-align: center;
 	display:flex;
 	font-family: inter;
 	justify-content: center;
-	gap: 170px;
 }
 
 
