@@ -56,8 +56,7 @@ body{
 
    /*BUTTON*/
 .readmore{
-	padding: 30px;
-	box-sizing: border-box;
+	
 	text-decoration: none;
 }
 
@@ -153,7 +152,25 @@ button a{
 
 
 	/*DESIGNS/CODING*/
-#choices{
+	.contents{
+		display: flex;
+		justify-content: center;
+		gap:90px;
+		flex-wrap: wrap;
+		margin-top: 80px;
+		margin-bottom:100px;
+		text-align: center;
+		font-family: inter, consolas;
+		font-weight: 600;
+	}
+	
+	div a{
+		text-decoration: none;
+		
+	}
+
+
+/*#choices{
 	display:flex;
 	justify-content: center;
 	flex-direction: space-around;
@@ -164,9 +181,10 @@ button a{
 	margin-bottom:100px;	
 	text-align: center;
 	font-family: inter;
-	font-size: 0.5em;
+	
 	font-weight: 800;
 	margin-top: 10%;
+	box-sizing: border-box;
 }
 
 
@@ -174,13 +192,13 @@ button a{
 	border-radius:10px;
 	  transition: transform .7s;
 	  transition:ease-out 1s;
-	  /*margin: 0 auto;*/
+	 
 	  
 }
 
 .zoom:hover {
-  -ms-transform: scale(1.5); /* IE 9 */
-  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.1);
   transform: scale(1.2); 
 }
 
@@ -196,13 +214,11 @@ button a{
 
 .facebooktwitter{
 	display:flex;
-	flex-direction: flex-end;
 	margin-top: 6px;
 }
 
 .Allrights{
 	font-family:inter;
-	font-size: 0.5em;
 	font-weight:800;
 	color: #727074;
 	box-sizing: border-box;
