@@ -152,6 +152,18 @@ button a{
 
 
 	/*DESIGNS/CODING*/
+	.heading{
+		display: flex;
+		justify-content: center;
+		margin: auto;
+		margin-top: 120px;
+		margin-bottom: 20px;
+		font-family: inter;
+		font-size: 2.2em;
+		font-weight: 800;
+		color: #000;
+	}
+
 	.contents{
 		display: flex;
 		justify-content: center;
