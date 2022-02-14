@@ -133,6 +133,7 @@ button a{
 .HAMBERGER{
 	margin-right: 1.25em;
 	margin-top: 40px;
+	
 }
 	/*HUMBERGER NAVIGATION END*/
 
@@ -157,17 +158,15 @@ button a{
 		justify-content: center;
 		margin: auto;
 		margin-top: 120px;
-		margin-bottom: 20px;
 		font-family: inter;
 		font-size: 2.2em;
-		
 		color: #000;
 	}
 
 	.contents{
 		display: flex;
 		justify-content: center;
-		gap:90px;
+		gap:100px;
 		flex-wrap: wrap;
 		margin-top: 80px;
 		margin-bottom:100px;
@@ -178,11 +177,11 @@ button a{
 	
 	div a{
 		text-decoration: none;
-		
+		color: #727074;
 	}
 
 
-.sayhellobutton button{
+.viewmorebutton button{
 	display: flex;
 	justify-content: center;
 	width:150px;
