@@ -80,7 +80,6 @@ body{
 .navigation{
 	max-width: 990px;
 	margin: auto;
-	padding: 20px;
 	box-sizing: border-box;
 	display:flex;
 	justify-content:space-between;
