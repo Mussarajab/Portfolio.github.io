@@ -138,6 +138,14 @@ html {
       font-size: 0.6em;
   }
   
+  @media screen and (max-width:480px) {
+    .descriptionimage div img{
+        width: 150px;
+        height: 150px;
+    }
+}
+
+
   
   @media screen and (max-width:480px) {
       .othernav{
