@@ -1,0 +1,146 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  
+  body{
+  background-image: linear-gradient(-60deg, #6f4e37 0%, #f09819 100%);
+  }
+  
+  .main-container{
+      display: flex;
+      justify-content: center;
+      max-width: 990px;
+      margin: auto;
+      margin-top: 150px;
+  }
+  
+  .header{
+      display: flex;
+      justify-content: space-between;   
+  }
+  
+  .logo{
+      display: flex;
+      justify-content: center;
+  }
+  
+  .othernav{
+      display: flex;
+      gap: 30px;
+      font-size: 1.5em;
+  }
+  
+  .navigation{
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+      gap: 80px;
+      font-family: 'Montserrat', sans-serif;
+      font-size:0.8em ;
+      text-decoration: none;
+      color: #ffffff;
+  }
+  
+  div a:hover{
+      background-color:  #6f4e37;
+      border-radius: 5px;
+  }
+  
+  .navigation a{
+      text-decoration: none;
+      color: #ffffff;
+  }
+  
+
+ .descriptionimage{
+     display: flex;
+     flex-wrap: wrap;
+ }
+ 
+ 
+ .descriptions{
+     display: flex;
+     flex-direction:column;
+     gap: 30px;
+     margin-top: 5px;
+ }
+
+ .productname{
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 2em;
+    margin-left: 30px;
+ }
+
+ .Productdescription{
+    display: flex;
+    flex-direction:column;
+    gap: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 1em;
+    margin-left: 30px;
+    gap: 30;
+ }
+  
+ select{
+     width: 100px;
+     border: none;
+     color: #000;
+     border-radius: 5px;
+ }
+  
+  
+  .Productdescription button{
+    background-color: rgb(248, 29, 29);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    height: 30px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  
+  
+  
+  hr{
+      width: 50px;
+  }
+  
+  .contact{
+      display: flex;
+      justify-content: center;
+      margin-top: 200px;
+      font-family: 'Montserrat', sans-serif;
+      color: #ffffff;
+      font-size: 2.5em;
+      font-weight: 500;	
+  }
+  
+  .footercontents{
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: 50px;
+      gap: 30px;
+      font-family: 'Montserrat', sans-serif;
+      color: #ffffff;
+      font-size: 0.9em;
+  }
+  
+  .copyright{
+      display: flex;
+      justify-content: center;
+      font-family: 'Montserrat', sans-serif;
+      color: #ffffff;
+      font-size: 0.6em;
+  }
+  
+  
+  @media screen and (max-width:480px) {
+      .othernav{
+          display: none;
+      }
+  }
