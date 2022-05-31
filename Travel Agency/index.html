@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+      <div class="intro">
+        <nav>
+          <div><img src="img/vemanem.regular.webp" width="200px"></div>
+				<div class="menu">
+                  <div><a href="">HOME</a></div>
+                  <div><a href="">BOOKING</a></div>
+                  <div><a href="">ATTRACTIONS</a></div>
+                  <div><a href="">TRAVEL&COURSES</a></div>
+                  <div Id="myOverlay" class="overlay">
+                    <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+                    <div class="overlay-content">
+                      <input type="search" name="q" placeholder="search here" class="searchbar">
+                    </div>
+                  </div>
+
+                  <div class="openBtn" onclick="openSearch()"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                    width="23" height="23"
+                    viewBox="0 0 50 50"
+                    style=" fill:#000000;"><path d="M 21 3 C 11.621094 3 4 10.621094 4 20 C 4 29.378906 11.621094 37 21 37 C 24.710938 37 28.140625 35.804688 30.9375 33.78125 L 44.09375 46.90625 L 46.90625 44.09375 L 33.90625 31.0625 C 36.460938 28.085938 38 24.222656 38 20 C 38 10.621094 30.378906 3 21 3 Z M 21 5 C 29.296875 5 36 11.703125 36 20 C 36 28.296875 29.296875 35 21 35 C 12.703125 35 6 28.296875 6 20 C 6 11.703125 12.703125 5 21 5 Z"></path></svg></div>
+					
+					
+				
+				</div>
+				<div class="hamburger-menu">
+					<input id="menu__toggle" type="checkbox" />
+					<label class="menu__btn" for="menu__toggle">
+					  <span></span>
+					</label>
+
+					<ul class="menu__box">
+					  <li><a class="menu__item" href="#">Главная</a></li>
+							<li><a class="menu__item" href="#">Проекты</a></li>
+							<li><a class="menu__item" href="#">Команда</a></li>
+							<li><a class="menu__item" href="#">Блог</a></li>
+							<li><a class="menu__item" href="#">Контакты</a></li>
+					</ul>
+				</div>
+				
+		</nav>
+
+        <div class="register">
+          <p class="p1">A lifetime of Discounts? It's Amaizing!</p>
+          <p>Get Rewards for Your Travels - Unlock Instant Savings of 10% or more with<br>TRAVEL.COM account.</p>
+          <button>Sign in/Register</button>
+        </div>
+
+        <!--BOOKING-->
+        <div class="bookingsection">
+          <div class="booking">
+            <input type="" class="bookingplace" placeholder="Where are you going"/>
+            <input type="date" class="bookingdate" placeholder="check in"/>
+            <select class="numberofppl">
+              <option>Single</option>
+              <option>Couple</option>
+              <option>Group</option>
+            </select>
+            <button class="searbutton">Search</button>
+          </div>
+        </div>  
+        <!--BOOKING END-->
+      </div>
+     
+
+        <div class="headings"><h1>ADVENTURE</h1></div>
+        <div class="middle">
+            <div><img src="img/1dec664af5fd949c0c5f5e14ab680961.jpg" width="400px"></div>
+            <div class="middlequotes">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum deserunt voluptatem sapiente magnam vel quaerat cumque veritatis debitis totam excepturi tempora nobis, nemo minus nisi aliquid aperiam voluptas alias ducimus? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur consequuntur nisi fugit, ratione neque explicabo, minus reiciendis placeat ipsum, laudantium voluptates quo assumenda dolor voluptatum ipsa aliquid eveniet nam? Eius!</div>
+        </div>
+
+        <div class="headings2"><h1>LEISURE</h1></div>       
+        <div class="middle">
+            <div class="middlequotes">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum deserunt voluptatem sapiente magnam vel quaerat cumque veritatis debitis totam excepturi tempora nobis, nemo minus nisi aliquid aperiam voluptas alias ducimus? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur consequuntur nisi fugit, ratione neque explicabo, minus reiciendis placeat ipsum, laudantium voluptates quo assumenda dolor voluptatum ipsa aliquid eveniet nam? Eius!</div>
+            <div><img src="img/e48d7ae268ce77b74709120641df1482.jpg" width="400px"></div>
+        </div>
+
+        <div class="exploredeals">
+          <div><img src="img/save-15%-or-more.png" width="100px"></div>
+          <div class="save15">
+            <div class="p1">Save 15% or More.</div>
+            <div class="p2">Plan your dream Trip with the Getaway deal</div>
+            <div><button>explore deals</button></div>
+          </div>
+        </div>
+
+
+        <div class="headings"><h1>TRENDING DESTINATIONS</h1></div>
+        <section class="trendingsection">
+          <div class="trending">
+            <img src="img/burgkhalifa.jpg" class="image" alt="burjkhalifa">
+            <div class="middlehover">
+              <div class="text">burj khalifa</div>
+            </div>
+          </div>
+
+          <div class="trending">
+            <img src="img/eiffeltower.jpg" class="image" alt>
+            <div class="middlehover">
+              <div class="text">Eiffel Tower</div>
+            </div>
+          </div>
+
+          <div class="trending">
+            <img src="img/greatwallofchina.jpg" class="image" alt>
+            <div class="middlehover">
+              <div class="text">Great Wall of China</div>
+            </div>
+          </div>
+
+          <div class="trending">
+            <img src="img/pyramidofgiza.jpg" class="image" alt>
+            <div class="middlehover">
+              <div class="text">Pyramid of Piza</div>
+            </div>
+          </div>
+
+          <div class="trending">
+            <img src="img/redtower.jpg" class="image" alt>
+            <div class="middlehover">
+              <div class="text">Red Tower</div>
+            </div>
+          </div>
+        </section>
+        
+        
+          <div class="nations">
+            <a href=""><div>TANZANIA</a></div>
+            <a href=""><div>KENYA</a></div>
+            <a href=""><div>UGANDA</a></div>
+            <a href=""><div>RWANDA</a></div>
+            <a href=""><div>ETHIOPIA</a></div>
+            <a href=""><div>SOUTH AFRICA</a></div>
+            <a href=""><div>BOTSWANA</a></div>
+            <a href=""><div>NAMIBIA</a></div>
+            <a href=""><div>SWAZILAND</a></div>
+            <a href=""><div>ZAMBIA</a></div>
+          </div>
+          <!--subscription-->
+          <div class="subscriptionsection">
+            <p class="signup1">SAVE MONEY & TIME.</p>
+            <p class="signup2">Sign Up Now! and get the Best Offer!!</p>
+            <div class="form">
+              <input type="email" class="form__email" placeholder="Enter your email address" />
+              <button class="form__button">Send</button>
+            </div>
+          </div>
+          <!--subscr-->
+
+          <footer>
+            <div class="bottomlinks">
+              <div>
+              <ul>
+                <p>MENU</p>
+                <li><a href="">Home</a></li>
+                <li><a href="">Booking</a></li>
+                <li><a href="">Travel&Course</a></li>
+              </ul>
+              </div>
+
+              <div>
+                <ul>
+                  <p>DESTINATIONS</p>
+                  <li><a href="">TANZANIA</a></li>
+                  <li><a href="">KENYA</a></li>
+                  <li><a href="">ZANZIBAR</a></li>
+                  <li><a href="">UGANDA</a></li>
+                  <li><a href="">RWANDA</a></li>
+                  <li><a href="">ETHIOPIA</a></li>
+                  <li><a href="">SOUTH AFRICA</a></li>
+                  <li><a href="">BOTSWANA</a></li>
+                  <li><a href="">NAMIBIA</a></li>
+                  <li><a href="">SWAZILAND</a></li>
+                  <li><a href="">ZAMBIA</a></li>
+                </ul>
+              </div>
+
+              <div class="socialnetworks">
+                <div><a href=""><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                  width="40" height="40"
+                  viewBox="0 0 24 24"
+                  style=" fill:#000000;"><path d="M 8 3 C 5.243 3 3 5.243 3 8 L 3 16 C 3 18.757 5.243 21 8 21 L 16 21 C 18.757 21 21 18.757 21 16 L 21 8 C 21 5.243 18.757 3 16 3 L 8 3 z M 8 5 L 16 5 C 17.654 5 19 6.346 19 8 L 19 16 C 19 17.654 17.654 19 16 19 L 8 19 C 6.346 19 5 17.654 5 16 L 5 8 C 5 6.346 6.346 5 8 5 z M 17 6 A 1 1 0 0 0 16 7 A 1 1 0 0 0 17 8 A 1 1 0 0 0 18 7 A 1 1 0 0 0 17 6 z M 12 7 C 9.243 7 7 9.243 7 12 C 7 14.757 9.243 17 12 17 C 14.757 17 17 14.757 17 12 C 17 9.243 14.757 7 12 7 z M 12 9 C 13.654 9 15 10.346 15 12 C 15 13.654 13.654 15 12 15 C 10.346 15 9 13.654 9 12 C 9 10.346 10.346 9 12 9 z"></path></svg></a></div>
+                <div><a href=""><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                  width="40" height="40"
+                  viewBox="0 0 24 24"
+                  style=" fill:#000000;"><path d="M 12 2 C 6.4889971 2 2 6.4889971 2 12 C 2 17.511003 6.4889971 22 12 22 C 17.511003 22 22 17.511003 22 12 C 22 6.4889971 17.511003 2 12 2 z M 12 4 C 16.430123 4 20 7.5698774 20 12 C 20 16.014467 17.065322 19.313017 13.21875 19.898438 L 13.21875 14.384766 L 15.546875 14.384766 L 15.912109 12.019531 L 13.21875 12.019531 L 13.21875 10.726562 C 13.21875 9.7435625 13.538984 8.8710938 14.458984 8.8710938 L 15.935547 8.8710938 L 15.935547 6.8066406 C 15.675547 6.7716406 15.126844 6.6953125 14.089844 6.6953125 C 11.923844 6.6953125 10.654297 7.8393125 10.654297 10.445312 L 10.654297 12.019531 L 8.4277344 12.019531 L 8.4277344 14.384766 L 10.654297 14.384766 L 10.654297 19.878906 C 6.8702905 19.240845 4 15.970237 4 12 C 4 7.5698774 7.5698774 4 12 4 z"></path></svg></a></div>
+                <div><a href=""><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                  width="40" height="40"
+                  viewBox="0 0 24 24"
+                  style=" fill:#000000;"><path d="M17,3H7C4.791,3,3,4.791,3,7v10c0,2.209,1.791,4,4,4h10c2.209,0,4-1.791,4-4V7C21,4.791,19.209,3,17,3z M17.05,9.514 c0,0.086,0,0.171,0,0.343c0,3.257-2.486,7.029-7.029,7.029c-1.371,0-2.657-0.429-3.771-1.114c0.171,0,0.429,0,0.6,0 c1.114,0,2.229-0.429,3.086-1.029c-1.114,0-1.971-0.771-2.314-1.714c0.171,0,0.343,0.086,0.429,0.086c0.257,0,0.429,0,0.686-0.086 c-1.114-0.257-1.971-1.2-1.971-2.4c0.343,0.171,0.686,0.257,1.114,0.343c-0.686-0.6-1.114-1.286-1.114-2.143 c0-0.429,0.086-0.857,0.343-1.2c1.2,1.457,3,2.486,5.057,2.571c0-0.171-0.086-0.343-0.086-0.6c0-1.371,1.114-2.486,2.486-2.486 c0.686,0,1.371,0.257,1.8,0.771c0.6-0.086,1.114-0.343,1.543-0.6c-0.171,0.6-0.6,1.029-1.114,1.371 c0.514-0.086,0.943-0.171,1.457-0.429C17.907,8.743,17.479,9.171,17.05,9.514z"></path></svg></a></div>
+              </div>
+            </div>  
+
+            <div class="privacysection">
+              <div class="privacy">
+                <a href=""><div>Privacy</a></div>
+                <a href=""><div>Terms&Conditions</a></div>
+                <a href=""><div>@2022TRAVEL</a></div>
+              </div>
+              <p class="smallstatementbottom">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text</p>
+            </div>
+          </footer>
+        
+        
+        <script>
+		
+          //search//
+            function openSearch() {
+              document.getElementById("myOverlay").style.display = "block";
+            }
+            
+            function closeSearch() {
+              document.getElementById("myOverlay").style.display = "none";
+            }
+          //search end//
+
+          //slideshow//
+            
+          //slideshow end//
+            </script>
+    </body>
+    
+</html>
